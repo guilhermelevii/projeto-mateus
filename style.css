@@ -1,57 +1,76 @@
 @charset "UTF-8";
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-html,body{
-    width: 100vw;
-    height: 98vh;
-    position: relative;
+html,
+body {
+  width: 100vw;
+  height: 98vh;
+  position: relative;
 }
 
-fieldset{
-    height: 300px;
-    width: 300px;
-    margin: auto;
-    background-color: white;
-    border-radius: 15px;
-    position: absolute;
+fieldset {
+  height: 593px;
+  width: 490px;
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
 
-        left: 50%;
-        top: 50%;
+  left: 50%;
+  top: 50%;
 
-        transform: translate(-50%, -50%); 
-
+  transform: translate(-50%, -50%);
 }
 
-form{
-    text-align: center;
-    padding-right: 5px;
-    position: absolute;
+form {
+  text-align: center;
+  padding-right: 5px;
+  position: absolute;
 
-        left: 50%;
-        top: 50%;
+  left: 50%;
+  top: 50%;
 
-        transform: translate(-50%, -50%); 
-    
+  transform: translate(-50%, -50%);
 }
 
-input{
-    text-align: center;
-    
-    
+input {
+  text-align: left;
+  width: 405px;
+  height: 67px;
+  padding-left: 10px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.418);
 }
 
-.foto{
-    background-repeat: no no-repeat;
-    background-position-x: center;
-    background-attachment: fixed;
-    margin: auto;
-    position: absolute;
+#isenha {
+  margin-top: 50px;
+}
 
-        left: 50%;
-        top: 50%;
+.foto {
+  background-repeat: no no-repeat;
+  background-position-x: center;
+  background-attachment: fixed;
+  margin: auto;
+  position: absolute;
 
-        transform: translate(-50%, -50%); 
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.usuario {
+  background-image: url(imagens/🦆\ icon\ _person_.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.senha {
+  background-image: url(imagens/🦆\ icon\ _lock\ locked_.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
