@@ -1,8 +1,57 @@
 @charset "UTF-8";
-img#foto1{
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html,body{
+    width: 100vw;
+    height: 98vh;
+    position: relative;
+}
+
+fieldset{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%); 
+
+}
+
+form{
+    text-align: center;
+    padding-right: 5px;
+    position: absolute;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%); 
     
 }
 
-main{
+input{
+    text-align: center;
     
+    
+}
+
+.foto{
+    background-repeat: no no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    margin: auto;
+    position: absolute;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%); 
 }
