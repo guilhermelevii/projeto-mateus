@@ -1,8 +1,7 @@
 @charset "UTF-8";
 @font-face {
-  font-family:'sansation';
-  src: url(font/Sansation_Bold.ttf) format('truetype');
-  
+  font-family: "sansation";
+  src: url(font/Sansation_Bold.ttf) format("truetype");
 }
 * {
   padding: 0px;
@@ -14,10 +13,8 @@ body {
   width: 100vw;
   height: 98vh;
   position: relative;
-  font-family: 'sansation' ;
-
+  font-family: "sansation";
 }
-
 
 fieldset {
   height: 593px;
@@ -32,7 +29,6 @@ fieldset {
   top: 50%;
 
   transform: translate(-50%, -50%);
-  
 }
 
 form {
@@ -43,7 +39,6 @@ form {
   top: 50%;
 
   transform: translate(-50%, -50%);
-  
 }
 
 input {
@@ -53,16 +48,14 @@ input {
   padding-left: 10px;
   margin-bottom: 50px;
   border-radius: 10px;
-  background-color: #E2E2E2;
+  background-color: #e2e2e2;
   border: none;
-  font-family: 'sansation';
+  font-family: "sansation";
   font-size: 17px;
-  
 }
 
 #isenha {
   margin-top: 50px;
-  
 }
 
 .foto {
@@ -75,7 +68,6 @@ input {
   top: 50%;
 
   transform: translate(-50%, -50%);
-  
 }
 
 .usuario {
@@ -83,38 +75,31 @@ input {
   background-repeat: no-repeat;
   background-position: right;
   background-size: auto;
-  
-  
 }
 
 .senha {
   background-image: url(imagens/🦆\ icon\ _lock\ locked_.png);
   background-repeat: no-repeat;
   background-position: right;
-  
-  
 }
 
-.login{
+.login {
   text-align: center;
-  color: #FFD166;
-  background-color: #004AAD;
+  color: #ffd166;
+  background-color: #004aad;
   border-radius: 35px;
   width: 405px;
   height: 67px;
   font-size: 22px;
-  font-family: 'sansation';
-  
-  
+  font-family: "sansation";
 }
 
 span > a {
   text-decoration: none;
-  color: #004AAD;
-  
+  color: #004aad;
 }
 
-input:hover{
-  background-color: #FFD166;
-  color:  #004AAD;
+input:hover {
+  background-color: #ffd166;
+  color: #004aad;
 }
