@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
-  font-family:'sansation_bold.ttf';
-  src: url(font/Sansation_Bold.ttf);
+  font-family:'sansation';
+  src: url(font/Sansation_Bold.ttf) format('truetype');
   
 }
 * {
@@ -14,7 +14,7 @@ body {
   width: 100vw;
   height: 98vh;
   position: relative;
-  font-family: ;
+  font-family: 'sansation' ;
 
 }
 
@@ -36,7 +36,6 @@ fieldset {
 
 form {
   text-align: center;
-  padding-right: 5px;
   position: absolute;
 
   left: 50%;
@@ -55,7 +54,7 @@ input {
   border-radius: 10px;
   background-color: #E2E2E2;
   border: none;
-  
+  font-family: 'sansation';
   
 }
 
@@ -81,6 +80,7 @@ input {
   background-image: url(imagens/🦆\ icon\ _person_.png);
   background-repeat: no-repeat;
   background-position: right;
+
   
   
 }
@@ -101,6 +101,7 @@ input {
   width: 405px;
   height: 67px;
   font-size: 22px;
+  font-family: 'sansation';
   
   
 }
