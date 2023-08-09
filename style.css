@@ -73,14 +73,14 @@ input {
 .usuario {
   background-image: url(imagens/🦆\ icon\ _person_.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 347px;
   background-size: auto;
 }
 
 .senha {
   background-image: url(imagens/🦆\ icon\ _lock\ locked_.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 347px;
 }
 
 .login {
