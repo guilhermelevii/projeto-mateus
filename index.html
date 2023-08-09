@@ -5,39 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto Mateus</title>
     <link rel="stylesheet" href="style.css" />
-    
-    
   </head>
   <body>
-    <img
-      class="foto"
-      id="foto1"
-      src="imagens/Background.png"
-      alt="background"
-    />
     <main>
-      <div>
         <fieldset>
           <form action="" method="get" autocomplete="on">
-            <input
-              type="text"
-              required
-              placeholder="Username"
-              class="usuario"
-            /><br />
-            <input
-              type="password"
-              name="senha"
-              id="isenha"
-              required
-              placeholder="Password"
-              class="senha"
-            />
+            <div class="input_container">
+              <input type="text" required placeholder="Username" />
+              <img
+                src="imagens/🦆 icon _person_.png"
+                alt="username"
+                width="20px"
+                class="icon"
+              />
+            </div>
+            <br />
+            <div class="input_container">
+              <input
+                type="password"
+                name="senha"
+                id="isenha"
+                required
+                placeholder="Password"
+              />
+              <img
+                src="imagens/🦆 icon _lock locked_.png"
+                alt="password"
+                width="20px"
+                class="icon"
+              />
+            </div>
             <input type="submit" value="Login" class="login" />
             <span><a href="#">Recover Password</a></span>
           </form>
         </fieldset>
-      </div>
     </main>
   </body>
 </html>

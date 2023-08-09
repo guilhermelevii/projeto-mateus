@@ -11,15 +11,20 @@
 html,
 body {
   width: 100vw;
-  height: 98vh;
+  height: 100vh;
   position: relative;
   font-family: "sansation";
-  min-width: 200px;
-  max-width: 1000px;
   margin: auto;
   overflow: hidden;
 }
 
+body {
+  background-image: url(/imagens/Background.png);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 fieldset {
   height: 593px;
@@ -28,63 +33,41 @@ fieldset {
   background-color: white;
   border-radius: 15px;
   border: none;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-
-  transform: translate(-50%, -50%);
 }
 
 form {
-  text-align: center;
-  position: absolute;
-
-  left: 50%;
-  top: 50%;
-
-  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
 }
 
 input {
   text-align: left;
-  width: 405px;
+  width: 100%;
   height: 67px;
-  padding-left: 10px;
-  margin-bottom: 50px;
+  padding-left: 20px;
   border-radius: 10px;
   background-color: #e2e2e2;
   border: none;
   font-family: "sansation";
   font-size: 17px;
+  box-sizing: border-box;
 }
 
-#isenha {
-  margin-top: 50px;
+.input_container {
+  position: relative;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
-.foto {
-  background-position: center center;
-  background-attachment: fixed;
-  margin: auto;
+.icon {
   position: absolute;
-
-  left: 50%;
-  top: 50%;
-
-  transform: translate(-50%, -50%);
-}
-
-.usuario {
-  background-image: url(imagens/🦆\ icon\ _person_.png);
-  background-repeat: no-repeat;
-  background-position: 347px;
-  background-size: auto;
-}
-
-.senha {
-  background-image: url(imagens/🦆\ icon\ _lock\ locked_.png);
-  background-repeat: no-repeat;
-  background-position: 347px;
+  top: 23px;
+  right: 20px;
 }
 
 .login {
