@@ -17,6 +17,8 @@ body {
   min-width: 200px;
   max-width: 1000px;
   margin: auto;
+  overflow: hidden;
+
   
  
 }
@@ -69,10 +71,6 @@ input {
   background-position: center center;
   background-attachment: fixed;
   margin: auto;
-  min-width: 98vw;
-  max-height: 98vh;
-  
-  
   position: absolute;
 
   left: 50%;
