@@ -14,8 +14,9 @@ body {
   height: 98vh;
   position: relative;
   font-family: "sansation";
-  min-width: 300px;
+  min-width: 200px;
   max-width: 1000px;
+  margin: auto;
   
  
 }
@@ -68,6 +69,10 @@ input {
   background-position: center center;
   background-attachment: fixed;
   margin: auto;
+  min-width: 98vw;
+  max-height: 98vh;
+  
+  
   position: absolute;
 
   left: 50%;
